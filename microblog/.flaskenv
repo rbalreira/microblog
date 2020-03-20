@@ -1,0 +1,9 @@
+FLASK_APP=microblog.py
+FLASK_DEBUG=1
+SQLALCHEMY_DATABASE_URI='postgresql://postgres:postgres@localhost:5432/microblog'
+MAIL_SERVER=smtp.googlemail.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+MAIL_USERNAME=flaskpythontest3@gmail.com
+MAIL_PASSWORD=FlaskPythonTest3
+ELASTICSEARCH_URL=http://localhost:9200
